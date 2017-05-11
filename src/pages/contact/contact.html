@@ -1,53 +1,44 @@
 <ion-header>
-
   <ion-navbar>
-    <ion-title>Profil</ion-title>
+       <ion-icon name="menu" class="icone-right"></ion-icon>
   </ion-navbar>
-
 </ion-header>
-<ion-content padding class="bg">
-   
-      <ion-card>
-         
-              <ion-avatar class="avatar">
-                  <img src="assets/img/hary.jpg" class="photo">
-              </ion-avatar>
-           
-          <ion-item class ="information">
-              <h2>Hariniony Andriamananarivo</h2>
-          </ion-item>
-      </ion-card>
 
-      <ion-card>
-      <ion-list>
-               <ion-item class="div2">
-                   COORDONNEES
-               </ion-item>
-              
+<ion-content>
+<div class="div1">
+    <img src="assets/img/hary.jpg" class="photo">
+    <h2> Niony Andria </h2>
+</div> 
+<ion-list padding class="list">
+        <ion-list-header class="header">
+            <h5 class="title">Coordonnées</h5>
+        </ion-list-header>
         <ion-item>
-           <ion-label>Telephone</ion-label>
+             <ion-icon name="call" item-left></ion-icon>
+             <p> Téléphone : 0695608782 </p>
         </ion-item>
         <ion-item>
-            <ion-label>Facebook</ion-label>
+             <ion-icon name="logo-facebook" item-left></ion-icon>
+             <p> Facebook : compte facebook </p>
         </ion-item>
         <ion-item>
-            <ion-label>Mail</ion-label>
+             <ion-icon name="mail" item-left></ion-icon>
+             <p> Mail : mail </p>
         </ion-item>
-      </ion-list>
-      </ion-card>
+</ion-list>
+<ion-list padding class="list1">
+        <ion-list-header class="header">
+             <h5 class="title">Groupes / TAGs</h5>
+             <ion-icon name="menu"  class="icone-right2" item-right></ion-icon>
+        </ion-list-header>
+        <ion-item>
+             <ion-icon name="arrow-dropdown" item-right></ion-icon>
+             <p> Mes Amis </p>
+        </ion-item>
+        <ion-item>
+             <ion-icon name="arrow-dropdown" item-right></ion-icon>
+             <p> Licence MIAGE Rodez </p>
+        </ion-item>
 
-
-       <ion-card>
-      <ion-list>
-               <ion-item class="div2">
-                   PROFILS ALTERNATIFS
-               </ion-item>
-        <ion-item>
-            <ion-label>Amis</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Famille</ion-label>
-        </ion-item>
-      </ion-list>
-      </ion-card>
+</ion-list>
 </ion-content>
