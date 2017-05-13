@@ -1,13 +1,67 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>listContacts</ion-title>
+    <ion-icon name="menu" class="icone-right"></ion-icon>
   </ion-navbar>
 
 </ion-header>
-
-
 <ion-content padding>
-<button ion-item (click)="profil()">Hariniony</button>
+
+<ion-item-group>
+    <ion-item-divider class="divider">
+        <p class="lettre">A</p>
+    </ion-item-divider>
+    <ion-item (click)="profil()" class="prof">
+        <ion-avatar item-left class="bord">
+         <img src="assets/img/hary.jpg">
+        </ion-avatar>
+         <p class="nom">AContact n°1</p>
+    </ion-item>
+      <ion-item (click)="profil()" class="prof">
+        <ion-avatar item-left class="bord">
+         <img src="assets/img/hary.jpg">
+        </ion-avatar>
+        <p class="nom">AContact n°2</p>
+    </ion-item>
+  </ion-item-group>
+
+  <ion-item-group>
+    <ion-item-divider class="divider">
+        <p class="lettre">B</p>
+    </ion-item-divider>
+    <ion-item (click)="profil()" class="prof">
+        <ion-avatar item-left class="bord">
+         <img src="assets/img/hary.jpg">
+        </ion-avatar>
+        <p class="nom">BContact n°1</p>
+    </ion-item>
+    <ion-item (click)="profil()" class="prof">
+        <ion-avatar item-left class="bord">
+         <img src="assets/img/hary.jpg">
+        </ion-avatar>
+        <p class="nom">BContact n°2</p>
+    </ion-item>
+  </ion-item-group>
+
+ <ion-item-group>
+    <ion-item-divider class="divider">
+        <p class="lettre">C</p>
+    </ion-item-divider>
+    <ion-item (click)="profil()" class="prof">
+        <ion-avatar item-left class="bord">
+         <img src="assets/img/hary.jpg">
+        </ion-avatar>
+        <p class="nom">CContact n°1</p>
+    </ion-item>
+   <ion-item (click)="profil()" class="prof">
+        <ion-avatar item-left class="bord">
+         <img src="assets/img/hary.jpg">
+        </ion-avatar>
+        <p class="nom">CContact n°2</p>
+    </ion-item>
+  </ion-item-group>
+  
+  
+
 <button ion-item (click)="retour()">Retour</button>
 </ion-content>

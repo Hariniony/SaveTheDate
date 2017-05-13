@@ -45,7 +45,7 @@
 .list1{
     display :block;
     padding : 0px !important;
-    margin-bottom: 0px !important; 
+    margin-bottom: 15px !important; 
     margin-top: 0px !important;
 }
 .icone-right2{
@@ -53,4 +53,10 @@
       margin-right : 20px !important;
       color : black;
       padding-top : 0px;
+}
+
+.thumbnail{
+    border-color: black !important;
+    border-width : 2px !important; 
+    border-style : solid !important;
 }
